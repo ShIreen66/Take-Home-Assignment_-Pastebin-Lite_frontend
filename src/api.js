@@ -12,6 +12,7 @@ export async function createPaste(payload) {
     throw new Error(err.message || "Failed to create paste");
   }
 
+  
   return res.json();
 }
 
